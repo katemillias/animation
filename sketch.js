@@ -90,18 +90,16 @@ let tale = {
   vy: -2
 }
 
-/// let tt = {
-///  x1: 997,
-  /// y1: 409,
-///  x2: 1004,
-  /// y2: 420,
-////  x3: 1014,
-////  y3: 406,
-///  vx: -2,
-///  vy: -2
-/// }
-
-
+ let tt = {
+  x1: 997,
+  y1: 409,
+  x2: 1004,
+  y2: 420,
+  x3: 1014,
+  y3: 406,
+  vx: -2,
+  vy: -2
+  }
 
 
 function setup() {
@@ -471,65 +469,65 @@ if (rightear.y1 > 377) {
 }
 
 
- //// fill(255, 252, 252) //white triangle tail
- //// noStroke()
-/// triangle(tt.x1, tt.y1, tt.x2, tt.y2, tt.x3, tt.y3)
+fill(255, 252, 252) //white triangle tail
+ noStroke()
+triangle(tt.x1, tt.y1, tt.x2, tt.y2, tt.x3, tt.y3)
 
-/// tt.x1 = tale.x2 + tale.vx //anchor to tale?
-//// tt.x2 = tt.x2 + tt.vx + tale.vx
-//// tt.x3 = tale.x2 + tale.vx ///anchor to tale?
+tt.x1 = tale.x2 + 5
+tt.x2 = tale.x2 + 10
+tt.x3 = tale.x2 + 20
 
-/// tt.y1 = tt.y1 + tale.vy
-/// tt.y2 = tt.y2 + tale.vy
-/// tt.y3 = tt.y3 + tale.vy
+tt.y1 = tt.y1 + tale.vy
+tt.y2 = tt.y2 + tale.vy
+tt.y3 = tt.y3 + tale.vy
 
-/// if (tt.x2 <= tale.x2 - 2) {
-///  tt.vy = -tt.vy
-//// }
+if (tt.x2 <= tale.x2 - 2) {
+tt.vy = -tt.vy
+ }
 
-/// if (tt.x2 >= tale.x2 + 2) {
-///  tt.vx = -tt.vx
-/// }
+if (tt.x2 >= tale.x2 + 2) {
+tt.vx = -tt.vx
+ }
 
-/// if (tt.y2 <= tale.y2 - 9) {
-///  tt.vy = -tt.vy
-/// }
+if (tt.y2 <= tale.y2 - 9) {
+tt.vy = -tt.vy
+}
 
-/// if (tt.y2 <= tale.y2 + 6) {
-///  tt.vy = -tt.vy
-//// }
+if (tt.y2 <= tale.y2 + 6) {
+ tt.vy = -tt.vy
+ }
 
-/// if (tt.x1 <= tale.x2 - 2) {
-  //// tt.vy = -tt.vy
-/// }
+ if (tt.x1 <= tale.x2 - 2) {
+ tt.vy = -tt.vy
+ }
 
-/// if (tt.x1 >= tale.x2 + 2) {
-////  tt.vx = -tt.vx
-/// }
+ if (tt.x1 >= tale.x2 + 2) {
+  tt.vx = -tt.vx
+ }
 
-/// if (tt.y1 <= tale.y2 - 9) {
-////  tt.vy = -tt.vy
-//// }
+ if (tt.y1 <= tale.y2 - 9) {
+  tt.vy = -tt.vy
+ }
 
-//// if (tt.y1 <= tale.y2 + 6) {
-///  tt.vy = -tt.vy
-//// }
+ if (tt.y1 <= tale.y2 + 6) {
+  tt.vy = -tt.vy
+ }
 
-//// if (tt.x3 <= tale.x2 - 2) {
-////  tt.vy = -tt.vy
-//// }
+ if (tt.x3 <= tale.x2 - 2) {
+ tt.vy = -tt.vy
+ }
 
-/// if (tt.x3 >= tale.x2 + 2) {
-////  tt.vx = -tt.vx
-/// }
+ if (tt.x3 >= tale.x2 + 2) {
+ tt.vx = -tt.vx
+ }
 
-//// if (tt.y3 <= tale.y2 - 9) {
-  //// tt.vy = -tt.vy
-/// }
+ if (tt.y3 <= tale.y2 - 9) {
+ tt.vy = -tt.vy
+ }
 
-/// if (tt.y3 <= tale.y2 + 6) {
-///  tt.vy = -tt.vy
-/// }
+ if (tt.y3 <= tale.y2 + 6) {
+ tt.vy = -tt.vy
+ }
 
 
 
